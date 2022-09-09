@@ -56,6 +56,6 @@ public class BaseClass {
 	
 	@AfterTest
 	public void testafter() {
-		
+		driver.close();
     }
 }
